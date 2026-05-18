@@ -84,7 +84,7 @@ download_if_missing() {
 echo "🔽 Checking and downloading Qwen-Image models..."
 
 # Qwen Image Edit Diffusion Model
-download_if_missing "$COMFYUI_DIR/models/diffusion_models/qwen_image_edit_fp8_e4m3fn.safetensors" \
+download_if_missing "$COMFYUI_DIR/models/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors" \
     "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors"
 
 # Qwen Image Lightning Lora
