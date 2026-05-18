@@ -100,7 +100,7 @@ download_if_missing "$COMFYUI_DIR/models/text_encoders/qwen_2.5_vl_7b_fp8_scaled
     "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
 
 # Upscaler
-download_if_missing "$COMFYUI_DIR/models/upscale/4x_foolhardy_Remacri.pth" \
+download_if_missing "$COMFYUI_DIR/models/upscale_models/4x_foolhardy_Remacri.pth" \
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
 
 # -------------------------------
