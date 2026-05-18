@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "🚀 Starting ComfyUI + Manager + Qwen Models Setup..."
 
 # -------------------------------
