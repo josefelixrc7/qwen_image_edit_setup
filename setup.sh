@@ -21,7 +21,7 @@ pip install --pre torch torchvision torchaudio --index-url https://download.pyto
 # -------------------------------
 # Step 3: Clone ComfyUI (if not exists)
 # -------------------------------
-COMFYUI_DIR="/root/ComfyUI"
+COMFYUI_DIR="/mnt/comfyui"
 
 if [ -d "$COMFYUI_DIR" ]; then
     echo "✅ ComfyUI directory already exists. Skipping clone."
