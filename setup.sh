@@ -55,6 +55,7 @@ fi
 # Step 6: Create model directories
 # -------------------------------
 mkdir -p "$COMFYUI_DIR/models/diffusion_models"
+mkdir -p "$COMFYUI_DIR/models/upscale_models"
 mkdir -p "$COMFYUI_DIR/models/loras"
 mkdir -p "$COMFYUI_DIR/models/vae"
 mkdir -p "$COMFYUI_DIR/models/text_encoders"
