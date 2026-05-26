@@ -27,7 +27,7 @@ if [ -d "$COMFYUI_DIR" ]; then
     echo "✅ ComfyUI directory already exists. Skipping clone."
 else
     echo "🔽 Cloning ComfyUI..."
-    git clone https://github.com/comfyanonymous/ComfyUI.git "$COMFYUI_DIR"
+    git clone https://github.com/Comfy-Org/ComfyUI "$COMFYUI_DIR"
 fi
 
 # -------------------------------
